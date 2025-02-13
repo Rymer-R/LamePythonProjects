@@ -1,4 +1,4 @@
-#1st python project
+#1st python project for Lame python projects
 #A Number Guessing game in python
 import random
   
