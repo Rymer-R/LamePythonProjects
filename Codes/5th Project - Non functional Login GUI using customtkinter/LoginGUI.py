@@ -14,7 +14,7 @@ def login():
     print("Logged In...")
 #the frame
 frame = customtkinter.CTkFrame(master = root)
-frame.pack(pady = 20, padx = 60, fill = "both", expand = True)
+frame.pack(fill = "both", expand = True)
 #displays Login on top of the screen
 label = customtkinter.CTkLabel(master = frame, text = "Login System", font=("Roboto", 42))
 label.pack(pady = 20, padx = 10)
