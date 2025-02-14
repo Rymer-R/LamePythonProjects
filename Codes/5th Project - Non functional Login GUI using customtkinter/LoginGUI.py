@@ -1,3 +1,5 @@
+#5th Project for Lame python projects (actually pretty lame one XD)
+#Login GUI (non functional)
 import customtkinter
 
 #setting appearance to dark
