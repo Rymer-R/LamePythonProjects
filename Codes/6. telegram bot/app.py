@@ -1,7 +1,6 @@
 #No one will see this but...
 #Spare me for the poor code i started coding just a month ago with only 4-5 days of experience 
 
-from methods import *
 from pyrogram import Client, emoji, filters
 from pyrogram.enums import ChatType
 import json
