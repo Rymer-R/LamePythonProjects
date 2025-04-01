@@ -1,0 +1,54 @@
+{
+    "start": {
+        "usage": "/start",
+        "description": "Checks if the bot is running or not"
+    },
+    "greet": {
+        "usage": "/greet <username or id> ; or reply to a message",
+        "description": "Greets a user"
+    },
+    "help": {
+        "usage": "/help or /help <command>",
+        "description": "Provides the user with a list of commands or help with a certain command"
+    },
+    "essentials": {
+        "usage": "/essentials",
+        "description": "Command to list tools from essentials bot"
+    },
+    "purge": {
+        "usage" : "/purge <number of messages from the last message or reply to a message>",
+        "description" : "deletes messages"
+    },
+    "kick": {
+        "usage": "/kick <username or id> ; or reply to a message",
+        "description": "Kicks a user or bot"
+    },
+    "ikick": {
+        "usage": "/ikick <userID1, userID2,... ; or reply to a message containing userIDs",
+        "description": "kicks all the users with the provided userIDs at once"
+    },
+    "dkick": {
+        "usage": "/dkick ; reply to a message",
+        "description": "Kicks the replied user and deletes the replied message"
+    },
+    "ban": {
+        "usage": "/ban <username or id> : or reply to message",
+        "description": "Bans a user or bot"
+    },
+    "dban": {
+        "usage": "/dban ; reply to a message",
+        "description": "Bans the replied user and deletes the replied message"
+    },
+    "iban": {
+        "usage": "/iban <userID1, userID2,...> ; or reply to a message containing userIDs",
+        "description": "Bans all the users with the provided userIDs at once"
+    },
+    "tban": {
+        "usage": "/tban <username/ID> <time : 3d 1h 2m 8s> ; username/ID is not required when replying to a message",
+        "description" : "Bans a user or bot for a given time"
+    },
+    "prefix": {
+        "usage": "/prefix <symbol: eg. '?' '.'>",
+        "description": "sets a unique prefix for all commands and avoids triggering other bots"
+    }
+}
